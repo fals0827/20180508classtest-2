@@ -12,7 +12,6 @@ public class Lotto extends JFrame{
     private JPanel jpnC = new JPanel(new GridLayout(1,6,2,2));
     private JPanel jpnS = new JPanel(new GridLayout(1,2,2,2));
     private Random rdn = new Random();
-    private Boolean flag = true ;
 
     public Lotto () {
         this.init();
